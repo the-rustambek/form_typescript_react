@@ -1,0 +1,48 @@
+.wrap{
+  --purple: rgb(139,6,201);
+  --shadow: 5px 5px 10px rgba(0,0,0,0.4);
+  --radius: 10px;
+
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+}
+
+.field-area{
+  border: none;
+  margin-bottom: 1,5rem;
+}
+
+label{
+  color: var(--purple);
+  font-weight: bold;
+  display: inline-block;
+  width: 4rem;
+}
+
+input{
+  appearance: none;
+  margin-left: 1rem;
+  border: 0;
+  outline: 0;
+  border-bottom: dotted 2px solid var(--purple);
+}
+
+input:focus{
+  border-bottom-style: solid;
+}
+
+button{
+  appearance: none;
+  border: none;
+  color: white;
+  background-color: var(--purple);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
